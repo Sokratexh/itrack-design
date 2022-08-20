@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.font01{
+    font-family: 'Roboto', sans-serif;
+}
+
+#frcont .website{
+    display: none;
+}
+
+#reddit{
+    display: none;
+}
+
+.espaco{
+    margin-top: 5%;
+}
+
+.grey{
+    font-size: 16px;
+    line-height: 1.75;
+    opacity: 0.7;
+    color: rgb(17, 51, 85);
+    text-decoration: none;
+}
+
+.texto5 {
+    /*color: black;*/ 
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+
+.espaco1{
+    margin-top: 7%;
+}
+
+.esquerda{
+    margin-left: 0%;
+}
+
+.conteudo{
+    background-color: black;
+
+}
+
+.espacoEsquerda{
+    margin-left: 10%;
+}
+
+
+.espacoDireita{
+    margin-left: 38%;
+}
+
+.espacoDLogin{
+    margin-left: 40%;
+}
+
+.espacoDLogout{
+    margin-left: 37%;
+    position: relative;
+}
+
+.noto{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.josefin{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+}
+
+.pacifico{
+    font-family: 'Pacifico', cursive;
+
+}
+
+.tamanho{
+    font-size: 16px;
+}
+
+.detalhes{
+    text-align: left;
+       
+}
+
+.impr {
+    
+    font-size: 15px;
+}
+
+.testimonial-card .card-up { height: 120px; overflow: hidden; border-top-left-radius:
+0.25rem; border-top-right-radius: 0.25rem; } .testimonial-card .avatar { width: 110px;
+margin-top: -60px; overflow: hidden; border: 3px solid #fff; border-radius: 50%; }

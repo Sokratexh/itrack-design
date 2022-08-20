@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>itrack - Sempre Visível</title>
+	<!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link href="css/base.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">  
+</head>
+<body>
+
+  <!-- --------------------- Navbar  -------------------------------->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+     <a href="../index.html"><img src="../img/logo.png" width="60" height="" class="navbar-brand"></a>
+     <!--<a class="navbar-brand" href="#" >Itrack</a>-->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex " id="navbarNav" >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="singup.html">Registrar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Preço</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <!-- Warning -->
+        <div class="dropdown">
+          <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+           <li><a class="dropdown-item" href="#">Rastreio de carros</a></li>
+           <li><a class="dropdown-item" href="#">Rastreio de motos</a></li>
+           <li><a class="dropdown-item" href="#">Gestão de frotas</a></li>
+           <li><a class="dropdown-item" href="#">Rastreio de pessoas</a></li>
+           <li><a class="dropdown-item" href="#">Rastreio de Itens perdidos</a></li>
+         </ul>
+       </div>
+     </ul>
+   </div>
+ </div>
+</nav>
+
+
+<!----------------------------Login---------------------------------------->
+<div class="container">
+  <div class="espaco1 mt-5">
+    <div class="container">
+      <form method="post" action="#" id="frcont">
+        <div class="text-center text-warning josefin">
+          <h3>itrack</h3>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="card  card-columns mx-auto d-flex justify-content-center" style="width: 21rem;">
+            <div class="card-body mt-3">
+              <input type="email" class="form-control mb-3" id="email" name="email" placeholder="Email" required>
+              <input type="password" class="form-control mb-5" id="password" name="password" placeholder="Palavra-Passe" required> 
+              <button type="submit" class="btn btn-warning btn-warning w-100">Continuar</button>
+              <div class="justify-content-center mt-3">Não tens uma conta?<a class="pacifico text-info" href="singup.html"> Regista-te</a></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div> 
+</div>
+</body>
+</html>
